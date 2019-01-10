@@ -1,4 +1,4 @@
-equire 'json'
+require 'json'
 version = JSON.parse(File.read('package.json'))["version"]
 
 Pod::Spec.new do |s|
